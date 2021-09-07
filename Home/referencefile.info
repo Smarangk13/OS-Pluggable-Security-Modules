@@ -1,0 +1,28 @@
+#.......
+Created By:- Host
+Read: 0
+Write : 1
+#............
+Commands available to users:-
+help - show this file
+cd <file directory> - Change directory
+cd.. previous directory
+cd\ Home directory
+ls - show availible files and folders
+login - logs in to another user
+logout - goes back to guest account
+user - modify user settings
+    - Change Password
+    - New user
+    - Delete User (Admin Only)
+    - Change Groups for user (Admin only)*
+    - Change Pam (Admin Only)- To select a new PAM
+        -simpleLogin and encryptedLogin
+    - x exit user mode
+make - create a new file
+open - opens files in your directory
+    - Read, write, permissions(admin and owner only)
+        - Write - i - insert ,a - append ,s -save ,q -quit
+    - x exit open file mode
+x - exit
+all other commands in your terminal can be executed
